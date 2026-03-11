@@ -28,9 +28,12 @@ jobs:
           node-version: 20 # 使用 Node 20，解决你截图中黄色的警告
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
+        env:
+          # GitHub Pages 是纯静态站点，没有后端接口；构建时强制启用前端 mock 产品数据
+          VITE_USE_MOCK_PRODUCTS: "true"
         run: npm run build
 
       - name: Upload artifact
