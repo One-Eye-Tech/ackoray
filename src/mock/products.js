@@ -52,10 +52,10 @@ export const mockProducts = [
       { id: 11, url: '/assets/products/man_b.png', displayOrder: 0 },
     ],
     variants: [
-      { id: 1001, color: COLORS.white, size: SIZES.s, stockQuantity: 6, isActive: true },
-      { id: 1002, color: COLORS.white, size: SIZES.m, stockQuantity: 10, isActive: true },
-      { id: 1003, color: COLORS.white, size: SIZES.l, stockQuantity: 8, isActive: true },
-      { id: 1004, color: COLORS.white, size: SIZES.xl, stockQuantity: 0, isActive: true },
+      { id: 1001, color: COLORS.white, size: SIZES.s, stockQuantity: 1000, isActive: true },
+      { id: 1002, color: COLORS.white, size: SIZES.m, stockQuantity: 1000, isActive: true },
+      { id: 1003, color: COLORS.white, size: SIZES.l, stockQuantity: 1000, isActive: true },
+      { id: 1004, color: COLORS.white, size: SIZES.xl, stockQuantity: 1000, isActive: true },
     ],
   },
   {
@@ -73,9 +73,10 @@ export const mockProducts = [
       { id: 31, url: '/assets/products/woman_b.png', displayOrder: 0 },
     ],
     variants: [
-      { id: 3001, color: COLORS.white, size: SIZES.s, stockQuantity: 6, isActive: true },
-      { id: 3002, color: COLORS.white, size: SIZES.m, stockQuantity: 10, isActive: true },
-      { id: 3003, color: COLORS.white, size: SIZES.l, stockQuantity: 8, isActive: true },
+      { id: 3001, color: COLORS.white, size: SIZES.s, stockQuantity: 1000, isActive: true },
+      { id: 3002, color: COLORS.white, size: SIZES.m, stockQuantity: 1000, isActive: true },
+      { id: 3003, color: COLORS.white, size: SIZES.l, stockQuantity: 1000, isActive: true },
+      { id: 3004, color: COLORS.white, size: SIZES.xl, stockQuantity: 1000, isActive: true },
     ],
   },
   {
@@ -93,7 +94,10 @@ export const mockProducts = [
       { id: 41, url: '/assets/products/man_g.png', displayOrder: 0 },
     ],
     variants: [
-      { id: 4001, color: COLORS.gray, size: SIZES.m, stockQuantity: 12, isActive: true },
+      { id: 4001, color: COLORS.gray, size: SIZES.s, stockQuantity: 1000, isActive: true },
+      { id: 4001, color: COLORS.gray, size: SIZES.m, stockQuantity: 1000, isActive: true },
+      { id: 4001, color: COLORS.gray, size: SIZES.l, stockQuantity: 1000, isActive: true },
+      { id: 4001, color: COLORS.gray, size: SIZES.xl, stockQuantity: 1000, isActive: true },
     ],
   },
   {
@@ -109,9 +113,10 @@ export const mockProducts = [
     mainImageId: 51,
     images: [{ id: 51, url: '/assets/products/woman_g.png', displayOrder: 0 }],
     variants: [
-      { id: 5001, color: COLORS.gray, size: SIZES.s, stockQuantity: 6, isActive: true },
-      { id: 5002, color: COLORS.gray, size: SIZES.m, stockQuantity: 10, isActive: true },
-      { id: 5003, color: COLORS.gray, size: SIZES.l, stockQuantity: 8, isActive: true },
+      { id: 5001, color: COLORS.gray, size: SIZES.s, stockQuantity: 1000, isActive: true },
+      { id: 5002, color: COLORS.gray, size: SIZES.m, stockQuantity: 1000, isActive: true },
+      { id: 5003, color: COLORS.gray, size: SIZES.l, stockQuantity: 1000, isActive: true },
+      { id: 5004, color: COLORS.gray, size: SIZES.xl, stockQuantity: 1000, isActive: true },
     ],
   },
 ]
